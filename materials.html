@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Матеріали для завантаження | Геодезія, землеустрій та кадастр ХДАЕУ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Матеріали для завантаження</h1>
+    <p>Для доступу до матеріалів необхідно авторизуватись.</p>
+  </header>
+
+  <section class="login">
+    <form id="loginForm">
+      <label for="email">Електронна пошта:</label>
+      <input type="email" id="email" required>
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Авторизуватись</button>
+    </form>
+  </section>
+
+  <section class="download-materials" style="display:none;">
+    <h2>Доступні матеріали:</h2>
+    <ul>
+      <li><a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID">Завантажити GADM</a></li>
+      <li><a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID">Завантажити SRTM</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Геодезія, землеустрій та кадастр ХДАЕУ</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
